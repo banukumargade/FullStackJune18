@@ -1,0 +1,246 @@
+
+For mobile devlopement.Ex:kony framework(purely on js)
+for web devlopment(angular/emberjs/reactjs/......)
+For desktop development(javascript core)
+IOT,Blockchain and cloud development
+for social media frameworks like fb,twitter sdks.
+----------------------------------------------
+lua is scripting language with lots of limitations.later on js came to market.
+
+https://github.com/srinivaskolaparthi/Angular1.x/wiki
+
+Karma/Protractor/jasmine/MochaJS--TDD
+BDD--Cucumber js libraries
+Jenkins
+Node server for working on libraries
+gulp,grunt,npm---for working on dependencies(like maven)
+Continous code quality testing----Sonarcube javascript
+Artifact repos------sonatye js
+----------------------------------------------------------
+
+JS disadvantage:broswer dependent,single threaded,doesnt support multithreading,doesnt support I/o,
+No proper debugging tools,no security,no proper support for all OOPS features.
+
+AJAX
+
+Mutithreading----Webworkers(html5) and vendor libraries
+no suuport for i/o------------Node I/o libarries
+Encryption/decrytion,Digital certfivates,encoding,decoding------Node provides all these
+OOPS----use ECMA6 or typescript
+broswer dependent----some many wor arounds fr all Html5 complaint browsers.
+
+
+https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js
+angular.js(123kb)
+angular.min.js(70kb)only spacxes will be removed
+
+manifest.mf
+Makefile?(startup files)(angular-cli)
+
+
+Tools for JS:Inspect,google watch
+
+
+Database connectivity in JS?currently no and yes(if yes:nodejs db library).
+
+Security:
+https://www.toptal.com/security/10-most-common-web-security-vulnerabilities
+https://owasp.org/
+
+---------------------------------------------------
+https://gulpjs.com/
+https://gruntjs.com/
+-----------------------
+If any browser is not supporting any Html5 feature,then use polyfills.
+https://github.com/Modernizr/Modernizr/wiki/HTML5-Cross-Browser-Polyfills
+https://kangax.github.io/compat-table/es6/
+
+
+Js tool:https://addons.mozilla.org/en-US/firefox/addon/firebug/
+
+thru javascript ,design code for 2 table.
+var a;
+for(a=0;a<10;a++)
+{
+   
+ console.log(2*a);
+
+document.write(a);
+}   
+
+undefined == null
+
+var a=9;
+var b='9';
+
+=== for content and datatype comparison.
+
+Passsing the value to a function can be done in 2 ways.
+1)through call by value(functional approach)
+2)Through Object API.(object approach)
+
+
+Object API,prototyping API:https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object
+
+
+
+Prototype?
+
+var d=90;
+
+early loading
+
+Closure are used for Event deligations and for designing drag and drop components.
+
+
+var com.cap.scope = {};//anonamys func/namespace
+
+
+javascript doesnt have class?no
+every function is treated as class.
+
+typescript
+
+Every Object in the world will have state,behaviour and identity
+
+state=properties which u define in ur class
+behaviour=methods
+Identity=Name of object
+
+
+const a=90;
+
+configuration means writable,updatable,enumeration and deletable.
+for every property u willl have above configuration.
+
+let is block level scoping.
+
+{
+let a=90
+}
+console.log(a)
+
+DEVOPS=TDD+BDD
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
