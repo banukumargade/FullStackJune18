@@ -1,1 +1,18 @@
+What is Application Orchestration:
+--------------------------
+Application or service orchestration is the process of integrating two or more applications and/or services together to automate a 
+process, or synchronize data in real-time. Often, point-to-point integration may be used as the path of least resistance.
+
+However,point-to-point integration always leads to a complex tangle of application dependencies (often referred to as "spaghetti code")
+that is very hard to manage, monitor and maintain. Application orchestration provides 
+a) an approach to integration that decouples applications
+from each other,
+b) capabilities for message routing, security, transformation and reliability, and 
+c) most importantly, a way to manage and monitor your integrations centrally.
+
+What is Business Process Management (BPM)?
+------------------------------------------
+Business Process Management (or BPM) can simply be thought of as a system which automates business processes. Typically,
+a BPM system has a graphical interface which allows you to model your business processes visually so that a business analyst or
+other non-programmer can easily understand them and verify that they indeed reflect the reality of your business.
 
