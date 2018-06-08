@@ -1,0 +1,18 @@
+
+BPM and ESB have different strengths. Consequently, the challenge becomes accurately determining system requirements and allocating 
+the correct division of responsibilities within your chosen architecture. It is a common mistake that organizations choose either an 
+ESB or a BPM solution without fully considering the nature of the problem they are trying to solve. While use cases vary, a good rule 
+of thumb when selecting whether to utilize a BPM or an ESB solution is as follows:
+
+BPM (only) Use Case:
+If the use case in question involves very low transaction volumes, low performance requirements, and a high degree of human interaction 
+in the business process and the system requirements are simple and not likely to change much over time, a BPM ‘only’ solution can be an
+appropriate choice.
+
+ESB (only) Use Case:
+If the use case in question involves medium to high transaction volumes and architectural flexibility and scalability are also important 
+due to the size or complexity of the implementation, then an ESB ‘only’ solution is the most appropriate choice.
+
+BPM and ESB Use Case (together):
+If the use case in question involves medium to high transaction volumes, architectural flexibility and scalability is required, and
+a substantial portion of these transactions will involve human interaction in the business process, a combined BPM and ESB solution should be applied. In this case the BPM is responsible for the business process and human workflow interactions and executes on a high performing, flexible, scalable ESB as a complement to BPM.
